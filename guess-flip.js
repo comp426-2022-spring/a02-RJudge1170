@@ -13,6 +13,8 @@ if (!(call === 'heads' || call === 'tails')) {
 
     console.log('Error: no input');
 
-}
+} else {
 
-console.log(flipACoin(call));
+    console.log(flipACoin(call));
+
+}

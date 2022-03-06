@@ -11,7 +11,7 @@ const call = args.call || 'failed';
 
 if (!(call === 'heads' || call === 'tails')) {
 
-    throw 'Error: no input';
+    console.log('Error: no input');
 
 }
 
